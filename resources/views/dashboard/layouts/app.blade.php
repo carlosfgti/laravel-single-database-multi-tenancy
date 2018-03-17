@@ -13,5 +13,7 @@
 
 
 	<script src="{{ mix('css/app.css') }}"></script>
+
+	@yield('scripts')
 </body>
 </html>
