@@ -8,7 +8,4 @@ Route::group(['prefix' => 'panel'], function () {
 });
 
 
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Site\SiteController@index');
