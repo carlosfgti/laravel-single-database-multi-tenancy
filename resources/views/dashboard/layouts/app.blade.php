@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>EspecializaTi - @yield('title')</title>
+	<title>@yield('title', 'EspecializaTi')</title>
 
 	<link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
